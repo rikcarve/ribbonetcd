@@ -11,8 +11,8 @@ import io.netty.buffer.ByteBuf;
 
 @ClientProperties(properties = {
         @Property(name = "ReadTimeout", value = "2000"),
-        @Property(name = "ConnectTimeout", value = "1000"),
-        @Property(name = "ServerListRefreshInterval", value = "5000"),
+        @Property(name = "ConnectTimeout", value = "2000"),
+        @Property(name = "ServerListRefreshInterval", value = "10000"),
         // @Property(name = "listOfServers", value = "localhost:8180"),
         @Property(name = "NIWSServerListClassName", value = "carve.ribbonetcd.EtcdServerList"),
 })
