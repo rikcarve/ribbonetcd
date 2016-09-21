@@ -10,3 +10,4 @@ docker run -d --name=registrator --net=host -v //var/run/docker.sock:/tmp/docker
 
 docker run -d -p :8080 hello
 ```
+![Image](http://uml.mvnsearch.org/github/rikcarve/ribbonetcd/blob/master/test.puml)
